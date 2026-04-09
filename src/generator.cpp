@@ -10,7 +10,7 @@ using namespace std;
 // Función para imprimir el uso correcto del programa
 void printUsage() {
     cout << "Uso: generator -size <SIZE> -output <OUTPUT FILE PATH>\n";
-    cout << "Tamanos validos para <SIZE>: TEST (100 nums), SMALL (16 MB), MEDIUM (32 MB), LARGE (64 MB)\n";
+    cout << "Tamanos validos para <SIZE>: TEST (100 nums), SMALL (32 MB), MEDIUM (64 MB), LARGE (128 MB)\n";
 }
 
 int main(int argc, char* argv[]) {
