@@ -1,0 +1,27 @@
+-pageSize 4096 -pageCount 16
+=== RESUMEN DE EJECUCION ===
+Algoritmo utilizado:  QS
+Tiempo durado:        5004 ms
+Page Faults:          31614
+Page Hits:            775502822
+
+-pageSize 1024 -pageCount 16
+=== RESUMEN DE EJECUCION ===
+Algoritmo utilizado:  QS
+Tiempo durado:        5970 ms
+Page Faults:          161509
+Page Hits:            775372927
+
+-pageSize 8192 -pageCount 16
+=== RESUMEN DE EJECUCION ===
+Algoritmo utilizado:  QS
+Tiempo durado:        5326 ms
+Page Faults:          13789
+Page Hits:            775520647
+
+-pageSize 2048 -pageCount 16
+=== RESUMEN DE EJECUCION ===
+Algoritmo utilizado:  QS
+Tiempo durado:        5112 ms
+Page Faults:          67017
+Page Hits:            735125133

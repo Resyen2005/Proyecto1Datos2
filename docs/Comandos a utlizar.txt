@@ -8,12 +8,12 @@ g++ -O3 src/generator.cpp -o build/generator
 
 g++ -O3 src/sorter.cpp src/PagedArray.cpp src/Algorithms.cpp -o build/sorter
 
-./build/sorter -input build/small.bin -output build/smallQS -alg QS -pageSize 4096 -pageCount 10
+./build/sorter -input build/small.bin -output build/smallQS -alg QS -pageSize 6144 -pageCount 16
 ./build/sorter -input build/medium.bin -output build/mediumQS -alg QS -pageSize 4096 -pageCount 10
 ./build/sorter -input build/large.bin -output build/largeQS -alg QS -pageSize 4096 -pageCount 10
 
 
-./build/sorter -input build/small.bin -output build/smallSS -alg SS -pageSize 4096 -pageCount 10
+./build/sorter -input build/small.bin -output build/smallSS -alg SS -pageSize 4096 -pageCount 16
 
 ./build/sorter -input build/small.bin -output build/smallHS -alg HS -pageSize 4096 -pageCount 10
 
